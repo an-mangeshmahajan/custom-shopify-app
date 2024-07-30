@@ -435,8 +435,6 @@ export default function Index() {
           </Card>
         </Layout.Section>
       </Layout>
-
-
     </Page>
   );
 }
