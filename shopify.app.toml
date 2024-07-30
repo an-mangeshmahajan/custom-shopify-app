@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "ff9985b9c38dd39a3fb1eb1a0f114090"
+name = "custom-shopfy-app"
+handle = "custom-shopfy-app"
+application_url = "https://bit-titanium-exclusion-jc.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "apnws.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://bit-titanium-exclusion-jc.trycloudflare.com/auth/callback",
+  "https://bit-titanium-exclusion-jc.trycloudflare.com/auth/shopify/callback",
+  "https://bit-titanium-exclusion-jc.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-07"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks"
+
+[pos]
+embedded = false
