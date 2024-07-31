@@ -3,7 +3,7 @@
 client_id = "ff9985b9c38dd39a3fb1eb1a0f114090"
 name = "custom-shopfy-app"
 handle = "custom-shopfy-app"
-application_url = "https://bit-titanium-exclusion-jc.trycloudflare.com"
+application_url = "https://zoloft-administrator-delay-bride.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://bit-titanium-exclusion-jc.trycloudflare.com/auth/callback",
-  "https://bit-titanium-exclusion-jc.trycloudflare.com/auth/shopify/callback",
-  "https://bit-titanium-exclusion-jc.trycloudflare.com/api/auth/callback"
+  "https://zoloft-administrator-delay-bride.trycloudflare.com/auth/callback",
+  "https://zoloft-administrator-delay-bride.trycloudflare.com/auth/shopify/callback",
+  "https://zoloft-administrator-delay-bride.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
